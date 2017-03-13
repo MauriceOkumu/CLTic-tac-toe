@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Command line game",
   "main": "index.js",
+  "bin": {
+  "snippet": "./index.js"
+  },
   "scripts": {
     "test": "test"
   },
