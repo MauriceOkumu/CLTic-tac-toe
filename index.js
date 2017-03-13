@@ -10,3 +10,10 @@ var _ = require('lodash');
 var git = require('simple-git')();
 var touch = require('touch');
 var fs = require('fs');
+var files = require('./lib/files');
+
+console.log(
+  chalk.yellow(
+    figlet.textSync('tictactoe', { horizontalLayout: 'full' })
+  )
+);
