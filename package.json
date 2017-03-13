@@ -4,7 +4,7 @@
   "description": "Command line game",
   "main": "index.js",
   "bin": {
-  "snippet": "./index.js"
+    "snippet": "./index.js"
   },
   "scripts": {
     "test": "test"
@@ -21,5 +21,18 @@
   "bugs": {
     "url": "https://github.com/MauriceOkumu/CLTic-tac-toe/issues"
   },
-  "homepage": "https://github.com/MauriceOkumu/CLTic-tac-toe#readme"
+  "homepage": "https://github.com/MauriceOkumu/CLTic-tac-toe#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "clui": "^0.3.1",
+    "figlet": "^1.2.0",
+    "github": "^9.2.0",
+    "inquirer": "^3.0.6",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "preferences": "^0.2.1",
+    "simple-git": "^1.67.0",
+    "touch": "^1.0.0"
+  }
 }
