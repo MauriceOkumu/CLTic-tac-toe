@@ -11,9 +11,20 @@ var git = require('simple-git')();
 var touch = require('touch');
 var fs = require('fs');
 var files = require('./lib/files');
+// var game = require('/.gameboard')
 
 console.log(
   chalk.yellow(
-    figlet.textSync('tictactoe', { horizontalLayout: 'full' })
+    figlet.textSync('tic-tac-toe', { horizontalLayout: 'full' })
   )
 );
+
+ var board = function() {
+   return {
+    1: "['_','_','_']",
+    2: "['_','_','_']",
+    3: "['_','_','_']"
+   }
+ }
+
+ console.log(board())
